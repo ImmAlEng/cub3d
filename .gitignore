@@ -1,0 +1,17 @@
+# Ignore everything by default
+*
+
+# Allow traversing directories so whitelist rules can match nested files
+!*/
+
+# Whitelist
+!.gitignore
+!Makefile
+!*.c
+!*.h
+!*.cub
+!*.xpm
+!*.md
+!*.txt
+!*.sh
+!*.log
