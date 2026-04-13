@@ -71,11 +71,24 @@ typedef struct s_parser
 
 typedef struct s_data
 {
-    t_game      game;
-    t_graphics  graphics;
-    t_parser     parser;
-    t_player     player;
+    t_error      error;
+    t_game      *game;
+    t_graphics  *graphics;
+    t_parser     *parser;
+    t_player     *player;
 
 }   t_data;
+
+/*      core      */
+
+/*      engine    */
+
+/*      parser    */
+
+/*      render    */
+
+/*      utils     */
+
+/*      debug      REMOVE BEFORE EVAL   */
 
 #endif

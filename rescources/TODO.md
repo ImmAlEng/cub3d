@@ -1,1 +1,3 @@
-finish gitignore
+- [x] finish gitignore
+- [ ] get familiar with the subject
+- [ ] split tasks
