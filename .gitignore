@@ -1,6 +1,9 @@
 # Ignore everything by default
 *
 
+# mlx
+!mlx/
+
 # Allow traversing directories so whitelist rules can match nested files
 !*/
 
